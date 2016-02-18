@@ -1,7 +1,7 @@
 private double fractionLength = .8; 
 private int smallestBranch = 10; 
 private double branchAngle = .5;  
-private double bLength = 100;
+private double bLength = 50;
 public void setup() 
 {   
 	size(640,480);    
@@ -29,7 +29,7 @@ public void keyPressed()
 	}
 	if (key == ' ')			//reset
 	{
-		bLength = 100;
+		bLength = 50;
 	}
 	redraw();
 }
