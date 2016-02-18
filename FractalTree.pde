@@ -1,7 +1,7 @@
 private double fractionLength = .8; 
 private int smallestBranch = 10; 
 private double branchAngle = .5;  
-private double bLength = 50;
+private double bLength = 100;
 public void setup() 
 {   
 	size(640,480);    
@@ -19,17 +19,17 @@ public void draw()
 
 public void keyPressed()
 {
-	if (key == 'w')				
+	if (key == 'w' || key == 'W')				
 	{
 		bLength++;
 	}
-	if (key == 's')				
+	if (key == 's' || key == 'S')				
 	{
 		bLength--;
 	}
 	if (key == ' ')			//reset
 	{
-		bLength = 50;
+		bLength = 100;
 	}
 	redraw();
 }
