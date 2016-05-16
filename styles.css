@@ -38,12 +38,12 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: text-decoration 3s;
 }
 
 li a:hover {
     background-color: #AAC1C1;
     text-decoration: line-through;
-    transition: text-decoration 3s;
 }
 
 .active {
